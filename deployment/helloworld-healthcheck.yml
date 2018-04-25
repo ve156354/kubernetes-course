@@ -14,7 +14,7 @@ spec:
         image: wardviaene/k8s-demo
         ports:
         - name: nodejs-port
-          containerPort: 3000
+          containerPort: 2000
         livenessProbe:
           httpGet:
             path: /
